@@ -2,6 +2,8 @@
 
 A CLI tool that renders text as ASCII art in your terminal.
 
+![alt text](image.png)
+
 ## Install
 
 ```bash
