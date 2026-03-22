@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pseudo"
+version = "0.1.0"
+description = "A CLI tool that renders text as ASCII art in your terminal"
+requires-python = ">=3.8"
+dependencies = ["pyfiglet", "colorama"]
+
+[project.scripts]
+pseudo = "pseudo.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pseudo*"]
